@@ -205,7 +205,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+# shows data preview
 def showData(df):
     inShowData = input("Do you want to see first 5 rows of data?").lower()
     i = 5
