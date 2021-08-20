@@ -27,7 +27,7 @@ def get_filters():
     listCity = str(CITY_DATA.keys())
     inCity=input("Which cities do you like to see ?  (available : "+ listCity + ")" ).lower()
     if inCity not in CITY_DATA:
-        print("Wrong Input!!! \n Lets start again! \n\n\n")
+        print("Wrong Input \n Lets start again! \n\n\n")
         main()
 
     # get user input for month (all, january, february, ... , june)
@@ -35,7 +35,7 @@ def get_filters():
     inMonth=input("Which months do you like to see ?  (available : "+ listMonth + ")" ).title()
 
     if inMonth not in months:
-        print("Wrong Input!!! \n Lets start again! \n\n\n")
+        print("Wrong Input \n Lets start again! \n\n\n")
         main()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -43,7 +43,7 @@ def get_filters():
     inDay=input("Which Day do you like to see ? Type 'all' for all!  (available : "+ listDay + ")" ).title()
 
     if inDay not in days:
-        print("Wrong Input!!! \n Lets start again! \n\n\n")
+        print("Wrong Input \n Lets start again! \n\n\n")
         main()
 
 
